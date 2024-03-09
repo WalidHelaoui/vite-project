@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import './App.css'
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>test page</h1>
       <div className="card">
         <Button variant="outline" onClick={() => setCount(count => count + 1)}>
           count is {count}
@@ -20,4 +20,4 @@ function App() {
   )
 }
 
-export default React.memo(App)
+export default App
