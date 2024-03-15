@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header: React.FC = () => {
   return (
-    <nav className="flex justify-end bg-gray-800 sticky min-h-12">
+    <header className="flex justify-end bg-gray-800 sticky min-h-12">
       <div>
         <button
           type="button"
@@ -14,7 +14,7 @@ const Header: React.FC = () => {
           <CartIcon />
         </button>
       </div>
-    </nav>
+    </header>
   )
 }
 
